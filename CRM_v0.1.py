@@ -17,6 +17,9 @@ import plotly.express as px #Para o Funnel Chart
 from GoogleNews import GoogleNews
 from random import randrange
 
+from deep_translator import GoogleTranslator
+tradutor = GoogleTranslator(source= "en", target= "pt")
+
 Status = True
 
 # Page setting
