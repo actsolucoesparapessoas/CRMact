@@ -29,7 +29,7 @@ placeholder = st.empty() #Este comando é necessário para limpar a tela
 
 datetime_br= datetime.now(pytz.timezone('America/Sao_Paulo'))
 #t = datetime_br.strftime('%d:%m:%Y %H:%M:%S %Z %z')
-data_atual = datetime_br.strftime('%d/%m/%Y')
+data_atual = datetime_br.strftime('%d/%m/%Y %H:%M:%S')
 
 def atualiza_cotacoes():
     #Link para Scraping de Cotação de moedas
