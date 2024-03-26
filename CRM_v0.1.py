@@ -40,7 +40,7 @@ def atualiza_cotacoes():
     a2.metric (f"{D2}", f" {cotacaoUS['USD']['bid']} ", f" {cotacaoUS['USD']['pctChange']} "+"%")
     D3 = "EU$ (" + str(cotacaoEUR['EUR']['create_date']) + ")"
     a3.metric (f"{D3}", f" {cotacaoEUR['EUR']['bid']} ", f" {cotacaoEUR['EUR']['pctChange']} "+"%")
-    DATA = '<p style="font-family:tahoma; color:gray; text-align: center; font-size: 58px;"> (%s) </p>' % data_atual
+    DATA = '<p style="font-family:tahoma; color:gray; text-align: center; font-size: 54px;"> (%s) </p>' % data_atual
     a4.markdown(DATA, unsafe_allow_html=True)
 
 def atualiza_news():
@@ -68,7 +68,7 @@ def atualiza_news():
     #url = "https://www.streamlit.io"
     #st.write("check out this [link](%s)" % url)
 
-    TEXTO1 = '<p style="font-family:tahoma; color:white; text-align: center; font-size: 24px;"> (%s) </p>' % Noticia_Selecionada
+    TEXTO1 = '<p style="font-family:tahoma; color:white; text-align: center; font-size: 26px;"> (%s) </p>' % Noticia_Selecionada
     st.markdown(TEXTO1, unsafe_allow_html=True)
     TEXTO2 = '<p style="font-family:tahoma; color:blue; text-align: center; font-size: 5px;"> (%s) </p>' % Link_Selecionado
     st.markdown(TEXTO2, unsafe_allow_html=True)      
