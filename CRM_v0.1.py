@@ -68,7 +68,7 @@ def atualiza_news():
     #url = "https://www.streamlit.io"
     #st.write("check out this [link](%s)" % url)
 
-    TEXTO1 = '<p style="font-family:tahoma; color:white; text-align: center; font-size: 26px;"> (%s) </p>' % Noticia_Selecionada
+    TEXTO1 = '<p style="font-family:tahoma; color:white; text-align: center; font-size: 24px;"> (%s) </p>' % Noticia_Selecionada
     st.markdown(TEXTO1, unsafe_allow_html=True)
     TEXTO2 = '<p style="font-family:tahoma; color:blue; text-align: center; font-size: 5px;"> (%s) </p>' % Link_Selecionado
     st.markdown(TEXTO2, unsafe_allow_html=True)      
