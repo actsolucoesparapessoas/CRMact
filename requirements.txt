@@ -6,6 +6,3 @@ click<=8.0.4
 GoogleNews
 streamlit_timeline
 plotly.express
-pytz
-datetime
-time
