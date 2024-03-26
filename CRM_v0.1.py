@@ -218,8 +218,9 @@ def Exibir_Abas():
                         {"id": 5, "content": "Acontecimento 05", "start": "2022-10-21"}]          
             
             st.subheader("Linha do tempo:")
-            tline = timeline(items, height=800)          
-            st.write(tline)            
+            timeline(items, height=800) 
+            #tline = timeline(items, height=800)          
+            #st.write(tline)            
             st.divider()
             
             #GRAFICO FUNIL 
