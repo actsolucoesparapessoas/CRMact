@@ -43,7 +43,7 @@ def atualiza_cotacoes():
     a2.metric (f"{D2}", f" {cotacaoUS['USD']['bid']} ", f" {cotacaoUS['USD']['pctChange']} "+"%")
     D3 = "EU$ (" + str(cotacaoEUR['EUR']['create_date']) + ")"
     a3.metric (f"{D3}", f" {cotacaoEUR['EUR']['bid']} ", f" {cotacaoEUR['EUR']['pctChange']} "+"%")
-    DATA = '<p style="font-family:tahoma; color:gray; text-align: center; font-size: 32px;"> (%s) </p>' % data_atual
+    DATA = '<p style="font-family:tahoma; color:gray; text-align: center; font-size: 28px;"> (%s) </p>' % data_atual
     a4.markdown(DATA, unsafe_allow_html=True)
 
 def atualiza_news():
