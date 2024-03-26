@@ -11,7 +11,7 @@ import json
 import numpy as np
 import pandas as pd
 import sqlite3
-from streamlit_timeline import st_timeline
+from streamlit_timeline import timeline
 import plotly.express as px #Para o Funnel Chart
 
 from GoogleNews import GoogleNews
@@ -218,8 +218,8 @@ def Exibir_Abas():
                         {"id": 5, "content": "Acontecimento 05", "start": "2022-10-21"}]          
             
             st.subheader("Linha do tempo:")
-            timeline = st_timeline(items, groups=[], options={}, height="300px")          
-            st.write(timeline)            
+            tline = timeline(items, groups=[], options={}, height="300px")          
+            st.write(tline)            
             st.divider()
             
             #GRAFICO FUNIL 
