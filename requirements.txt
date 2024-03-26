@@ -4,5 +4,6 @@ numpy
 requests
 click<=8.0.4
 GoogleNews
-streamlit_timeline
+streamlit-timeline
 plotly.express
+pytz
