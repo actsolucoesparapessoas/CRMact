@@ -7,3 +7,4 @@ GoogleNews
 streamlit-timeline
 plotly.express
 pytz
+deep-translator
