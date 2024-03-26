@@ -67,6 +67,7 @@ def atualiza_news():
     Noticia_Selecionada = CincoMais['title'][indice]
     Noticia_Selecionada = Noticia_Selecionada.replace(str(MeiosMaisCitados.index[0]),"",1)
     Noticia_Selecionada = Noticia_Selecionada.replace("Mais","",1)
+    Noticia_Selecionada = tradutor.translate(Noticia_Selecionada)
     Link_Selecionado = CincoMais['link'][indice]
     #url = "https://www.streamlit.io"
     #st.write("check out this [link](%s)" % url)
