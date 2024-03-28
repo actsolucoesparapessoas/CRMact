@@ -10,3 +10,4 @@ pytz
 deep-translator
 google-generativeai
 gTTS
+streamlit_chat
