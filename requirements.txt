@@ -8,3 +8,4 @@ streamlit-timeline
 plotly.express
 pytz
 deep-translator
+google-generativeai
